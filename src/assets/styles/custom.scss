@@ -1,0 +1,17 @@
+#drawer{
+  position: relative;
+  width: 360px;
+  height: 360px;
+  margin: 0 auto;
+  .dot{
+    width: 18px;
+    height: 18px;
+    background-color: #0000ff;
+    border-radius: 9px;
+    position: absolute;
+    border: 1px solid black;
+    &.red{
+      background-color: #ff0000;
+    }
+  }
+}
